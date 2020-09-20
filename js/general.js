@@ -252,7 +252,7 @@ function init() {
 }
 
 function flyEagle() {
-    var eagle_rand = Math.floor(Math.random() * 2);
+    var eagle_rand = 2;
     var eagle_final_x;
     var eagle_final_y;
 
@@ -267,7 +267,7 @@ function flyEagle() {
         eagle_start_y = 0;
         eagle_final_x = 0;
         eagle_final_y = screen_height;
-        $('#eagle').addClass('eagle_flip_x');
+    //    $('#eagle').addClass('eagle_flip_x');
     }
 
     $("#eagle").css('left', eagle_start_x).css('top', eagle_start_y).show();
@@ -277,7 +277,7 @@ function flyEagle() {
         top: eagle_final_y + 'px'
     },
         eagle_speed, 'linear', function () {
-            $("#eagle").css('top', 0).css('left', 0).hide();
+            $("#eagle").css('bottom', 0).css('left', 0).hide();
         });
 }
 

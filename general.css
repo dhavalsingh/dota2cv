@@ -98,16 +98,19 @@ button:focus {
 }
 
 #eagle {
-	background: url("img/eagle.gif");
-	width: 36px;
-	height: 29px;
+	background: url("img/creep.gif");
+	width: 140px;
+	height: 140px;
 	z-index: 3;
 	position: fixed;
+	background-size: cover;
 }
 
 .eagle_flying_webp {
-	background: url("img/eagle.webp") !important;
-	height: 37px !important;
+	background: url("img/creep.gif") !important;
+	height: 140px !important;
+	background-size: cover !important;
+
 }
 
 .eagle_flip_x {
