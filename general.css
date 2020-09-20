@@ -167,6 +167,7 @@ button:focus {
 	top: 50%;
 	margin-left: -200px;
 	margin-top: -300px;
+	overflow: auto;
 }
 
 #paper h2 {

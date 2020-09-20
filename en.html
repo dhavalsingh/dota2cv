@@ -1,183 +1,182 @@
 <html>
+	<head>
+		<title>Dhaval Singh</title>
+		<meta name="description" content="Interactive CV based on Dota2 game" />
 
-<head>
-    <title>Dhaval Singh</title>
-    <meta name="description" content="Interactive CV based on Dota2 game" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kalam&family=Romanesco&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Romanesco&display=swap" rel="stylesheet">
+		<link href="general.css?v=1" rel="stylesheet" />
+		<link rel="preload" href="img/paper.png" as="image" />
+	</head>
 
-    <link href="general.css?v=1" rel="stylesheet">
-    <link rel="preload" href="img/paper.png" as="image">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" href="img/icon_32_.png" sizes="32x32" />
-</head>
+	<body>
+		<div id="paper">
+			<div id="content_invo" class="pages">
+				<h2>My stuff</h2>
+				<ul>
+					<li>
+						<a href="https://dhavalsingh.github.io/" target="_blank"
+							>Portfolio</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/dhaval-singh-502b79161/"
+							target="_blank"
+							>LinkedIn</a
+						>
+					</li>
+					<li>
+						<a href="https://handshakevigilante.wordpress.com/" target="_blank"
+							>Blog</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://dhavalsingh.github.io/personalsite/"
+							target="_blank"
+							>Webiste</a
+						>
+					</li>
+				</ul>
+			</div>
 
-<body>
+			<div id="content_pl" class="pages">
+				<h2>Languages</h2>
+				<ul>
+					<li>JavaScript</li>
+					<li>CSS</li>
+					<li>HTML5</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>Python</li>
+				</ul>
+			</div>
 
+			<div id="content_spec" class="pages">
+				<h2>Experience</h2>
+				<ul>
+					<li>
+						<h3>Procol</h3>
+						<h4>Software Engineer, July 2020 - Ongoing</h4>
+<!-- 						<p>
+							Enterprise Dashboard: Working as a front-end developer on the
+							Enterprise dashboard on features such as spend analytic and
+							updating it using ReactJS, Redux and out own Design System.
+						</p> -->
+					</li>
+					<li>
+						<h3>eGoverments Foundation</h3>
+						<h4>Software Engineer Intern, Aug 2019 - June 2020</h4>
+<!-- 						<p>
+							Backend Developer for DIGIT platform: Collaborated in a
+							cross-functional Platform team by developing highly scalable REST
+							APIs based on the Micro-services architecture using Java
+							Spring-Boot,JDBC,PostgreSQL,Kafka.Worked on Implementing SMS-OTP
+							Notification service and using Kafka to integrate it with other
+							services, Modifying the PaymentGateway service to be more agile
+							and use less resources on the back-end,Testing and fixing SQL
+							Injection vulnerabilities in the Report Service, Automating E2E
+							Testing for the E-pass and MCS service using cypress framework and
+							upgrading a lot of internal services as well.
+						</p> -->
+                    </li>
+                    <li>
+                        <h3>Vedanta Limited</h3>
+                        <h4>Electronics Intern, May 2017 - July 2017</h4>
+                    </li>
+					<li>
+						<h3>FCIPT, Institute of plasma research</h3>
+						<h4>Physics intern, August 2017</h4>
+<!-- 						<p>
+							BN/BNSiO2 sputtering yield shape profiles under stationary plasma
+							thruster operating conditions : Assisted the research team in the
+							experimental setup with a rotatable Quartz Crystal
+							Microbalance(QCM) and helped validate results with the famous
+							Sigmund, Zhang and Bohdansky sputtering theories.
+						</p> -->
+					</li>
+				</ul>
+			</div>
 
-    <div id="paper">
-        <div id="content_invo" class="pages">
-            <h2>My stuff</h2>
-            <ul>
-                <li>
-                    <a href="/" target="_blank">Blog</a>
-                </li>
-                <li>
-                    <a href="https://demo.vivirenremoto.com/" target="_blank">Plugins WordPress</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/vivirenremoto/" target="_blank">Twitter</a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/vivirenremoto/" target="_blank">Youtube</a>
-                </li>
-                <li>
-                    <a href="https://perfectsetup.pro/setups/mi-setup-vivirenremoto/" target="_blank">Setup</a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/vivirenremoto/" target="_blank">Twitch</a>
-                </li>
+			<div id="content_enigma" class="pages">
+				<h2>Technical Proficiency</h2>
+				<ul>
+					<li>ReactJS</li>
+					<li>Redux(RTK)</li>
+					<li>AntD</li>
+					<li>Web Scraping</li>
+					<li>SpringBoot</li>
+					<li>Firebase</li>
+					<li>PostgreSQL</li>
+					<li>Cypress</li>
+					<li>Git</li>
+				</ul>
+			</div>
 
-            </ul>
-        </div>
+			<button id="close">✓</button>
+		</div>
 
-        <div id="content_pl" class="pages">
-            <h2>Tools</h2>
-            <ul>
-                <li>
-                    Visual Studio Code
-                </li>
-                <li>
-                    Firefox
-                </li>
-                <li>
-                    WinSCP
-                </li>
-                <li>
-                    Termius
-                </li>
-                <li>
-                    Trello
-                </li>
-            </ul>
-        </div>
+		<div id="canvas"></div>
+		<div id="land">
+			<div id="villager">&nbsp;</div>
+			<div id="eagle">&nbsp;</div>
 
-        <div id="content_spec" class="pages">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <a href="https://www.isocialweb.agency/" target="_blank">iSocialWeb - DEV</a>
-                </li>
-                <li>
-                    <a href="https://www.elcorteingles.es/" target="_blank">El Corte Inglés - SEO</a>
-                </li>
-                <li>
-                    <a href="https://internetrepublica.com/" target="_blank">Internet República - DEV</a>
-                </li>
-                <li>
-                    <a href="https://prensarank.com/" target="_blank">Pranksarank - DEV</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/miquelcamps/" target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </div>
+			<div id="tooltip">Use Mouse or arrow keys to move and go near another hero to interact</div>
+		</div>
 
-        <div id="content_enigma" class="pages">
-            <h2>Developer Skills</h2>
-            <ul>
-                <li>
-                    JS(ES6)
-                </li>
-                <li>
-                    React-Redux
-                </li>
-                <li>
-                    CSS
-                </li>
-                <li>
-                    Web Scraping
-                </li>
-                <li>
-                    APIs
-                </li>
-                <li>
-                    Git
-                </li>
-            </ul>
-        </div>
+		<audio id="bg_music1" loop>
+			<source src="mp3/music1.mp3" type="audio/mp3" />
+		</audio>
 
-        <button id="close">✓</button>
-    </div>
+		<audio id="bg_music2" loop>
+			<source src="mp3/music2.mp3" type="audio/mp3" />
+		</audio>
 
-    <div id="canvas"></div>
-    <div id="land">
+		<audio id="bg_wololo" loop>
+			<source src="mp3/wololo.mp3" type="audio/mp3" />
+		</audio>
 
+		<audio id="villager_talk1">
+			<source src="mp3/villager.mp3" type="audio/mp3" />
+		</audio>
 
-        <div id="villager">&nbsp;</div>
-        <div id="eagle">&nbsp;</div>
+		<audio id="villager_talk2">
+			<source src="mp3/villager2.mp3" type="audio/mp3" />
+		</audio>
 
+		<audio id="click">
+			<source src="mp3/click.mp3" type="audio/mp3" />
+		</audio>
 
-        <div id="tooltip">
-        </div>
+		<audio id="sound_barracks">
+			<source src="mp3/sound_barracks.mp3" type="audio/mp3" />
+		</audio>
 
+		<audio id="sound_university">
+			<source src="mp3/sound_university.mp3" type="audio/mp3" />
+		</audio>
 
-    </div>
+		<audio id="sound_house">
+			<source src="mp3/sound_house.mp3" type="audio/mp3" />
+		</audio>
 
-    <audio id="bg_music1" loop>
-        <source src="mp3/music1.mp3" type="audio/mp3">
-    </audio>
+		<audio id="sound_blacksmith">
+			<source src="mp3/sound_blacksmith.mp3" type="audio/mp3" />
+		</audio>
 
-    <audio id="bg_music2" loop>
-        <source src="mp3/music2.mp3" type="audio/mp3">
-    </audio>
+		<audio id="sound_car">
+			<source src="mp3/car.mp3" type="audio/mp3" />
+		</audio>
 
-    <audio id="bg_wololo" loop>
-        <source src="mp3/wololo.mp3" type="audio/mp3">
-    </audio>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <audio id="villager_talk1">
-        <source src="mp3/villager.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="villager_talk2">
-        <source src="mp3/villager2.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="click">
-        <source src="mp3/click.mp3" type="audio/mp3">
-    </audio>
-
-
-
-    <audio id="sound_barracks">
-        <source src="mp3/sound_barracks.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="sound_university">
-        <source src="mp3/sound_university.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="sound_house">
-        <source src="mp3/sound_house.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="sound_blacksmith">
-        <source src="mp3/sound_blacksmith.mp3" type="audio/mp3">
-    </audio>
-
-    <audio id="sound_car">
-        <source src="mp3/car.mp3" type="audio/mp3">
-    </audio>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script src="js/general.js"></script>
-
-</body>
-
+		<script src="js/general.js"></script>
+	</body>
 </html>
