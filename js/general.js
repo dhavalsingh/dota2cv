@@ -104,8 +104,8 @@ $(function () {
 });
 
 function init() {
-
     // arrow controls
+    document.getElementById('bg_music1').play();
     document.onkeydown = function (e) {
 
 
@@ -184,18 +184,17 @@ function init() {
     // mover aldeano
     $('#canvas').click(function (e) {
         if ($('#paper').is(':visible')) return;
-        console.log("XSS");
         final_x = e.offsetX;
         final_y = e.offsetY;
 
         startWalking();
-
-/*             var talk_random = Math.floor(Math.random() * 2);
+      //  document.getElementById('villager_talk1').play();
+                   var talk_random = Math.floor(Math.random() * 2);
             if (talk_random == 1) {
                 document.getElementById('villager_talk1').play();
             } else {
                 document.getElementById('villager_talk2').play();
-            }  */
+            }  
     });
 
 
@@ -286,7 +285,15 @@ function startWalking() {
  /*    if (music_start == false) {
         music_start = true;
     } */
+    if (music_start == false) {
 
+        music_start = true;
+                document.getElementById('bg_music1').volume = 0.6;
+                document.getElementById('bg_music1').play();
+
+
+
+        }
     $('#villager').addClass(villager_walking_class);
     clearInterval(village_walking);
     console.log({village_walking});
